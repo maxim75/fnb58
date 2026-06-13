@@ -16,6 +16,11 @@ fnb58 = "fnb58.cli:main"
 [project.urls]
 Homepage = "https://github.com/baryluk/fnirsi-usb-power-data-logger"
 
+[dependency-groups]
+dev = [
+    "pytest>=8",
+]
+
 [build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"
